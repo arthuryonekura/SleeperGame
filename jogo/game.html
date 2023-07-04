@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sleeper Game</title>
+  <style>
+    /* Estilos CSS inline */
+   /* Define o estilo para o corpo da página */
+body {
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+  margin: 150px 0 0; /* Adiciona uma margem superior de 150 pixels */
+}
+
+/* Define o estilo para o elemento h1 */
+h1 {
+  font-size: 50px; /* Define o tamanho da fonte como 50 pixels */
+  margin-bottom: 20px; /* Adiciona uma margem inferior de 20 pixels */
+}
+
+/* Define o estilo para os botões */
+button {
+  width: 100px; /* Define a largura como 100 pixels */
+  height: 50px; /* Define a altura como 50 pixels */
+  margin: 5px; /* Adiciona uma margem de 5 pixels em todos os lados */
+  font-size: 18px; /* Define o tamanho da fonte como 18 pixels */
+}
+
+/* Define o estilo para os elementos com os IDs level, score, message e target */
+#level,
+#score,
+#message,
+#target {
+  font-size: 25px; /* Define o tamanho da fonte como 25 pixels */
+  margin-bottom: 20px; /* Adiciona uma margem inferior de 20 pixels */
+}
+
+/* Define o estilo para o elemento com o ID target */
+#target {
+  font-size: 50px; /* Define o tamanho da fonte como 36 pixels */
+  margin-bottom: 20px; /* Adiciona uma margem inferior de 20 pixels */
+}
+
+#timer{
+  font-size: 25px; /* Define o tamanho da fonte como 25 pixels */
+}
+  </style>
+</head>
+<body>
+  <!-- Título do jogo -->
+  <h1>Sleeper Game</h1>
+  
+  <!-- Botão para iniciar o jogo -->
+  <button onclick="startGame()">Iniciar Jogo</button>
+  
+  <!-- Elementos para exibir informações do jogo -->
+  <div id="level"></div>
+  <div id="target"></div>
+  <div id="buttons"></div>
+  <div id="score"></div>
+  <div id="message"></div>
+  <div id="timer"></div>
+
+  <!-- Script JavaScript para controlar a lógica do jogo -->
+  <script src="script.js"></script>
+</body>
+</html>
